@@ -1,0 +1,17 @@
+{
+  "name": "vplayer-node",
+  "version": "1.0.0",
+  "description": "Video player api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=local nodemon app.js"
+  },
+  "author": "Ankit Tiwari",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1"
+  }
+}
